@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.2 on win32)" generated="20220516 22:12:15.220" rpa="false" schemaversion="2">
+<suite id="s1" name="Alert" source="C:\Users\User\PycharmProjects\Automation1\TestCases\Alert.robot">
+<test id="s1-t1" name="HandlingAlert">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220516 22:12:15.668" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<msg timestamp="20220516 22:12:19.232" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220516 22:12:19.285" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 101.0.4951.64 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x009C7AC3+2587331]
+	Ordinal0 [0x0095ADD1+2141649]
+	Ordinal0 [0x00853BB8+1063864]
+	Ordinal0 [0x00873638+1193528]
+	Ordinal0 [0x0086F4B5+1176757]
+	Ordinal0 [0x0086CC51+1166417]
+	Ordinal0 [0x0089D12F+1364271]
+	Ordinal0 [0x0089CD5A+1363290]
+	Ordinal0 [0x008984A6+1344678]
+	Ordinal0 [0x008753F6+1201142]
+	Ordinal0 [0x008762E6+1204966]
+	GetHandleVerifier [0x00B6DF22+1680738]
+	GetHandleVerifier [0x00C20DBC+2413564]
+	GetHandleVerifier [0x00A5D151+563089]
+	GetHandleVerifier [0x00A5BF13+558419]
+	Ordinal0 [0x0096081E+2164766]
+	Ordinal0 [0x00965508+2184456]
+	Ordinal0 [0x00965650+2184784]
+	Ordinal0 [0x0096F5BC+2225596]
+	BaseThreadInitThunk [0x75EBFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776F7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x776F7A4E+238]
+</msg>
+<status status="FAIL" starttime="20220516 22:12:15.668" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//button[text()='Click Me']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<arg>Press a button!</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<arg>accept</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<arg>press a button!</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220516 22:12:19.285" endtime="20220516 22:12:19.285"/>
+</kw>
+<status status="FAIL" starttime="20220516 22:12:15.668" endtime="20220516 22:12:19.285">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 101.0.4951.64 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x009C7AC3+2587331]
+	Ordinal0 [0x0095ADD1+2141649]
+	Ordinal0 [0x00853BB8+1063864]
+	Ordinal0 [0x00873638+1193528]
+	Ordinal0 [0x0086F4B5+1176757]
+	Ordinal0 [0x0086CC51+1166417]
+	Ordinal0 [0x0089D12F+1364271]
+	Ordinal0 [0x0089CD5A+1363290]
+	Ordinal0 [0x008984A6+1344678]
+	Ordinal0 [0x008753F6+1201142]
+	Ordinal0 [0x008762E6+1204966]
+	GetHandleVerifier [0x00B6DF22+1680738]
+	GetHandleVerifier [0x00C20DBC+2413564]
+	GetHandleVerifier [0x00A5D151+563089]
+	GetHandleVerifier [0x00A5BF13+558419]
+	Ordinal0 [0x0096081E+2164766]
+	Ordinal0 [0x00965508+2184456]
+	Ordinal0 [0x00965650+2184784]
+	Ordinal0 [0x0096F5BC+2225596]
+	BaseThreadInitThunk [0x75EBFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776F7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x776F7A4E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220516 22:12:15.220" endtime="20220516 22:12:19.285"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Alert">Alert</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220516 22:12:15.220" level="ERROR">Taking listener 'RobotStackTracer' into use failed: Importing listener 'RobotStackTracer' failed: ModuleNotFoundError: No module named 'RobotStackTracer'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\User\PycharmProjects\Automation1\venv\Scripts\robot.exe
+  C:\Program Files\Python310\python310.zip
+  C:\Program Files\Python310\DLLs
+  C:\Program Files\Python310\lib
+  C:\Program Files\Python310
+  c:\users\user\pycharmprojects\automation1\venv
+  c:\users\user\pycharmprojects\automation1\venv\lib\site-packages</msg>
+</errors>
+</robot>

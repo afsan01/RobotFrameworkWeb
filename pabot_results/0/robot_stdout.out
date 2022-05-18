@@ -1,0 +1,35 @@
+==============================================================================
+Alert                                                                         
+==============================================================================
+HandlingAlert                                                         | FAIL |
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 101.0.4951.64 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x009C7AC3+2587331]
+	Ordinal0 [0x0095ADD1+2141649]
+	Ordinal0 [0x00853BB8+1063864]
+	Ordinal0 [0x00873638+1193528]
+	Ordinal0 [0x0086F4B5+1176757]
+	Ordinal0 [0x0086CC51+1166417]
+	Ordinal0 [0x0089D12F+1364271]
+	Ordinal0 [0x0089CD5A+1363290]
+	Ordinal0 [0x008984A6+1344678]
+	Ordinal0 [0x008753F6+1201142]
+	Ordinal0 [0x008762E6+1204966]
+	GetHandleVerifier [0x00B6DF22+1680738]
+	GetHandleVerifier [0x00C20DBC+2413564]
+	GetHandleVerifier [0x00A5D151+563089]
+	GetHandleVerifier [0x00A5BF13+558419]
+	Ordinal0 [0x0096081E+2164766]
+	Ordinal0 [0x00965508+2184456]
+	Ordinal0 [0x00965650+2184784]
+	Ordinal0 [0x0096F5BC+2225596]
+	BaseThreadInitThunk [0x75EBFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776F7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x776F7A4E+238]
+------------------------------------------------------------------------------
+Alert                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\User\PycharmProjects\Automation1\pabot_results\0\output.xml
